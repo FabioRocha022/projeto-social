@@ -37,3 +37,22 @@ section#dispositivo{
     height: 626px;
     background-repeat: no-repeat;
 }
+
+section#redes img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.402);
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+section#redes{
+    position: fixed;
+    top: 5%;
+    left: 95%;
+}
+section#redes img:hover{
+    border: 2px solid white;
+}
